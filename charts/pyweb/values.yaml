@@ -4,8 +4,8 @@
 replicaCount: 5
 
 image:
-  repository: draft
-  tag: dev
+  repository: 10.3.246.103:5000/mailming/pyweb
+  tag: 0.0.9
   pullPolicy: IfNotPresent
 service:
   name: pyweb
